@@ -1,0 +1,17 @@
+{
+  "compileOnSave": false,
+  "include": [
+    "./**/*.ts"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "target": "ES2017",
+    "module": "CommonJS",
+    "lib": [
+      "es2017",
+      "DOM"
+    ]
+  }
+}
